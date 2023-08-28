@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Crop Disease Section</title>
+</head>
+<body>
+  <div class="page disease-page">
+    <h1>Find out which disease has been caught by your plant</h1>
+    <form id="disease-form">
+      <div class="input-group">
+        <label for="image" class="input-label">Upload an image of the plant:</label>
+        <input type="file" accept="image/*" id="image" name="image" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <input type="submit" value="Predict">
+      </div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

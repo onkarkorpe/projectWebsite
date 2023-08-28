@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Crop Section</title>
+</head>
+<body>
+  <div class="crop-page">
+    <h1>Find out the most suitable crop to grow in your farm</h1>
+    <form id="crop-form">
+      <div class="input-group">
+        <label for="nitrogen" class="input-label">Nitrogen:</label>
+        <input type="number" id="nitrogen" name="nitrogen" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="phosphorus" class="input-label">Phosphorus:</label>
+        <input type="number" id="phosphorus" name="phosphorus" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="potassium" class="input-label">Potassium:</label>
+        <input type="number" id="potassium" name="potassium" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="phLevel" class="input-label">pH Level:</label>
+        <input type="number" step="0.1" id="phLevel" name="phLevel" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="rainfall" class="input-label">Rainfall (mm):</label>
+        <input type="number" id="rainfall" name="rainfall" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="state" class="input-label">State:</label>
+        <input type="text" id="state" name="state" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="city" class="input-label">City:</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <input type="submit" value="Predict">
+      </div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

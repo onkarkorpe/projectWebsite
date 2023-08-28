@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fertilizer Section</title>
+</head>
+<body>
+  <div class="page fertilizer-page">
+    <h1>Find the suitable fertilizer for your crop</h1>
+    <form id="fertilizer-form">
+      <div class="input-group">
+        <label for="nitrogen" class="input-label">Nitrogen:</label>
+        <input type="number" id="nitrogen" name="nitrogen" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="phosphorus" class="input-label">Phosphorus:</label>
+        <input type="number" id="phosphorus" name="phosphorus" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="potassium" class="input-label">Potassium:</label>
+        <input type="number" id="potassium" name="potassium" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <label for="crop" class="input-label">Crop you want to grow:</label>
+        <input type="text" id="crop" name="crop" required>
+      </div>
+      <div class="input-group">
+        <br>
+        <input type="submit" value="Predict">
+      </div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
